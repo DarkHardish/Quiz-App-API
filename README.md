@@ -1,4 +1,4 @@
-# Quiz-App-API
+# Quiz-App
 
 Quiz App is an application that utilizes an API to provide users with multiple-choice questions. 
 The user selects one of the options as their answer.
