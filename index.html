@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz App</title>
+    <script
+      src="https://kit.fontawesome.com/119d70e2a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="wrapper">
+        <div class="quiz-container">
+          <div class="quiz-head">
+            <h1 class="quiz-title">Quiz Game</h1>
+            <div class="quiz-score">
+              <span id="correct-score"></span>/<span id="total-question"></span>
+            </div>
+          </div>
+          <div class="quiz-body">
+            <h2 class="quiz-question" id="question">
+              <!--Whta is the HTTP?<br />
+              <span class="category">Geography</span>
+            --></h2>
+            <ul class="quiz-options">
+              <!-- <li>YUES</li>
+              <li>YUES</li>
+              <li>YUES</li>
+              <li>YUES</li>-->
+            </ul>
+            <div id="result"></div>
+          </div>
+          <div class="quiz-foot">
+            <button id="check-answer" type="button">Check Answer</button>
+            <button id="play-again" type="button">Play Again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
